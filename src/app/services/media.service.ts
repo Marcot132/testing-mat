@@ -9,11 +9,11 @@ import { BehaviorSubject } from 'rxjs';
 })
 export class MediaService {
 
-  apiURL = "http://localhost:8080/"
+  apiURL = "https://marco-service-marcot132.cloud.okteto.net/"
 
-  proxyURL = "proxy-size"
+  proxyURL = "https://marco-service-marcot132.cloud.okteto.net/proxy-size"
 
-  hoursURL = "dev-size"
+  hoursURL = "https://marco-service-marcot132.cloud.okteto.net/dev-size"
 
   constructor(private http: HttpClient) { }
 
