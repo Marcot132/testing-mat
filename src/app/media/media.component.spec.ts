@@ -18,7 +18,7 @@ describe('MediaComponent', () => {
 
     fixture = TestBed.createComponent(MediaComponent);
     component = fixture.componentInstance;
-    mediaService = TestBed.inject(MediaService); // Inyecta el servicio
+    mediaService = TestBed.inject(MediaService); // Inyecta el servicioggggg
     fixture.detectChanges();
   });
 
